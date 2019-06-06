@@ -1,0 +1,25 @@
+{
+    "parameter": {
+        "b": 0.02,
+        "a": 0.04,
+        "m": 0.06,
+        "L": 0.2,
+        "r": 0.08,
+        "k": 0.2,
+        "dt": 0.4,
+        "puma_total": 100,
+        "hare_total": 100,
+        "T": 20
+    },
+  "init_setting" : {
+      "puma": "concentrated",
+      "hare": "uniform"
+  },
+  "landscape_file": "Config/MapFiles/small.dat",
+  "animation_setting": "heatmaps",
+  "output": {
+      "ppm": "yes",
+      "heatmaps": "yes",
+      "surface_plots": "no"
+  }
+}
