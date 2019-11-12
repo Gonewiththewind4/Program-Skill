@@ -12,11 +12,15 @@ setup(
 
                 "pandas",
 
-                "sklearn",
+                "jsons",
 
                 "sys",
 
-                "matplotlib"
+                "matplotlib",
+
+                "time",
+
+                
 
     ]
 
